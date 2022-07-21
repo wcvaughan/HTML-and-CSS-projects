@@ -286,7 +286,8 @@ section {
 .form-spacer {
     padding: 30px 39px;
 }
-
+/* I don't know why but the following sections aren't formatting properly*/
+/*Specifically this guy, terms. Does not want to go where it should*/
 .terms {
     margin: 30px 1px 0 0;
     margin-top: 13%;
@@ -330,6 +331,7 @@ section {
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
+/*To here. It's been bugging me.*/
 
 /*----------------------------------------
     FOOTER STYLES
