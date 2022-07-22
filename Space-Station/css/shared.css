@@ -280,14 +280,15 @@ section {
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100, 65, 0, 0.80;
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.80); /*There was a parentheses missing at the end of the "rgba" 7-22*/
 }
 
 .form-spacer {
-    padding: 30px 39px;
+    padding: 60px 39px;/*changed the padding from to 30px 60px-7-22*/
 }
-/* I don't know why but the following sections aren't formatting properly*/
-/*Specifically this guy, terms. Does not want to go where it should*/
+/* I don't know why but the following sections aren't formatting properly 7-21*/
+/*Specifically this guy, terms. Does not want to go where it should 7-21*/
+/*As of 7-22 the formatting looks like it fixed. And it was the parentheses missing up there on line 283. Weird.*/
 .terms {
     margin: 30px 1px 0 0;
     margin-top: 13%;
