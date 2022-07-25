@@ -1,9 +1,9 @@
 # HTML-and-CSS-projects
 
 ## Projects
-* [Space Station Site](https://wcvaughan.github.io/wcvaughan.spacestation.io/)
-* [Movie Theater Site](https://wcvaughan.github.io/wcvaughan.cinema.io/)
-* [My Portfolio Site](https://wcvaughan.github.io/wcvaughan.myportfolio.io/)
+* [Space Station Site]
+* [Movie Theater Site]
+* [My Portfolio Site](https://wcvaughan.github.io/wcvaughan.github.io/)
 ### Space Station Site
 > This page is an example home page for a Space travel company. It's styled using CSS and contains a navbar, image containers, and a form.
 ### Movie Theater Site
