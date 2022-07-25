@@ -1,0 +1,21 @@
+.header {
+    color: red;
+}
+
+p {
+    color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        background-color: red;
+    }
+
+    .header {
+        color: blue;
+    }
+
+    p {
+        color: blue;
+    }
+}

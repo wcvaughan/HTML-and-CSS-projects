@@ -1,0 +1,103 @@
+/*----------------------------------------
+             GENERIC STYLES
+----------------------------------------*/
+footer,
+nav {
+    display: block;
+}
+
+/*--------------------------------------------
+                MENU
+--------------------------------------------*/
+.menu {
+    color: #f00;
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {
+    color: #000;
+    background-color: rgba(255, 255, 255,1);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 1px solid #9d9fa2;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    /*background-color: #052136;*/
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+    color: #f00;
+    background-color: rgba(100, 65, 0, 0.3);
+}
+
+
+/*--------------------------------------------
+                IMAGE
+--------------------------------------------*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+
+.container {
+    margin: 3%;
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+/*--------------------------------------------
+                TABLE
+--------------------------------------------*/
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: chartreuse;
+}
+
+th, td {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*--------------------------------------------
+                FOOTER
+--------------------------------------------*/
+.footer {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
