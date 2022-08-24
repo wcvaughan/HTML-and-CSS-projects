@@ -6,6 +6,7 @@
 	<title>The Space Station | Resort</title>
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/animations.css">
+    <script src="JS/shared.js"></script>
 </head>
 
 <body>
@@ -31,6 +32,23 @@
             </div>
         </div>
         <!--END HOME-->
+
+        <button class="open-button" onclick="openForm()">Contact</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1 style="color: gray;">Contact us</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Seat preference</b></label>
+                <input type="text" placeholder="Window or aisle" name="psw" required>
+
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
 
         <!--GALLERY-->
         <section id="gallery">
@@ -151,52 +169,7 @@
         </section>
         <!--END GALLERY-->
 
-        		<!-- IMAGE SCROLLER -->
-			<div class="row">
-				<div class="column">
-					<img src="images/Thumb/thumbnail_1.png" alt="">
-					<img src="images/Thumb/thumbnail_2.png" alt="">
-					<img src="images/Thumb/thumbnail_3.png" alt="">
-					<img src="images/Thumb/thumbnail_4.png" alt="">
-					<img src="images/Thumb/thumbnail_5.png" alt="">
-					<img src="images/Thumb/thumbnail_6.png" alt="">
-					<img src="images/Thumb/thumbnail_7.png" alt="">
-					<img src="images/Thumb/thumbnail_8.png" alt="">
-					<img src="images/Thumb/thumbnail_9.png" alt="">
-					<img src="images/Thumb/thumbnail_10.png" alt="">
-					<img src="images/Thumb/thumbnail_11.png" alt="">
-					<img src="images/Thumb/thumbnail_12.png" alt="">
-				</div>
-				<div class="column">
-					<img src="images/Thumb/thumbnail_12.png" alt="">
-					<img src="images/Thumb/thumbnail_11.png" alt="">
-					<img src="images/Thumb/thumbnail_10.png" alt="">
-					<img src="images/Thumb/thumbnail_9.png" alt="">
-					<img src="images/Thumb/thumbnail_8.png" alt="">
-					<img src="images/Thumb/thumbnail_7.png" alt="">
-					<img src="images/Thumb/thumbnail_6.png" alt="">
-					<img src="images/Thumb/thumbnail_5.png" alt="">
-					<img src="images/Thumb/thumbnail_4.png" alt="">
-					<img src="images/Thumb/thumbnail_3.png" alt="">
-					<img src="images/Thumb/thumbnail_2.png" alt="">
-					<img src="images/Thumb/thumbnail_1.png" alt="">
-				</div>
-				<div class="column">
-					<img src="images/Thumb/thumbnail_9.png" alt="">
-					<img src="images/Thumb/thumbnail_11.png" alt="">
-					<img src="images/Thumb/thumbnail_7.png" alt="">
-					<img src="images/Thumb/thumbnail_5.png" alt="">
-					<img src="images/Thumb/thumbnail_3.png" alt="">
-					<img src="images/Thumb/thumbnail_1.png" alt="">
-					<img src="images/Thumb/thumbnail_12.png" alt="">
-					<img src="images/Thumb/thumbnail_2.png" alt="">
-					<img src="images/Thumb/thumbnail_4.png" alt="">
-					<img src="images/Thumb/thumbnail_6.png" alt="">
-					<img src="images/Thumb/thumbnail_8.png" alt="">
-					<img src="images/Thumb/thumbnail_10.png" alt="">
-				</div>
-			</div>
-		<!-- END IMAGE SCROLLER -->
+
 
         <!--RSVP-->
         <section id="contact">
@@ -207,7 +180,7 @@
                         <h2><span>Your adventure is just around the moon.</span>
                             <br/>Reserve your flight today!
                         </h2>
-                        <p class="rsvp-text">
+                        <p class="rsvp-text" style="font: size 8vw;">
                             Please provide us with your basic contact information.
                         </p>
                         <div class="form-rsvp">
